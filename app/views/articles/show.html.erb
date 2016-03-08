@@ -1,7 +1,8 @@
 <h1>Showing selcted article</h1>
 <p>
   Title: <%= @article.title %>
-</p>  
+</p>
 <p>
   Description: <%= @article.description %>
-</p> 
+</p>
+<td><%= link_to "Edit", edit_article_path %></td> | <%= link_to "Back", articles_path %>
