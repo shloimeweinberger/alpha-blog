@@ -1,2 +1,37 @@
+$navbar-default-bg: OrangeRed;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #535C5E;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #879396;
+}
+
+.jumbotron{
+  font-weight: bold;
+  background-image: asset-url('red_wave_fire_textures_ultra_3840x2160_hd-wallpaper-155700.jpg');
+  background-size: cover;
+  width: 100%;
+  /*border: 4px solid darkgray;*/
+}
+
+.jumbotron h1 {
+  font-size: 5em;
+  color: OrangeRed;
+  text-shadow: .02em .02em white;
+}
+
+.btn-lg{
+  background-color: OrangeRed;
+  font-weight: bold;
+  border: 0px solid white;
+}
+
+
