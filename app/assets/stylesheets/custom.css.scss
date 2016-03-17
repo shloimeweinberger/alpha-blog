@@ -10,11 +10,16 @@ $navbar-default-bg: OrangeRed;
   font-weight: bold;
 }
 
+.center{
+  align: center;
+}
+
 #logo:hover {
   color: #879396;
 }
 
 .jumbotron{
+  margin: 0;
   font-weight: bold;
   background-image: asset-url('red_wave_fire_textures_ultra_3840x2160_hd-wallpaper-155700.jpg');
   background-size: cover;
@@ -28,10 +33,18 @@ $navbar-default-bg: OrangeRed;
   text-shadow: .02em .02em white;
 }
 
-.btn-lg{
+#SignUp{
   background-color: OrangeRed;
   font-weight: bold;
   border: 0px solid white;
 }
 
+.article-actions{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description{
+  margin-top: 0;
+}
 
